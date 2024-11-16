@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="EdgeTest(failed)">
+    <parameter name="browser" value="EDGE"/>
+    <classes>
+      <class name="TestNg.TestScript">
+        <methods>
+          <include name="logout"/>
+          <include name="ClickOnBooks"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="fetchData"/>
+          <include name="closeObject"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- TestNg.TestScript -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
